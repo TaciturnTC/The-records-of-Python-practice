@@ -4,7 +4,7 @@ import random
 code_list = []
 
 for i in range(4):
-  statu = random.randint(1,3)
+    statu = random.randint(1,3)
 	if statu == 1:
 		a = random.randint(65,90)
 		random_uppercase = chr(a)
