@@ -1,4 +1,3 @@
-
 import random
 
 code_list = []
@@ -20,4 +19,6 @@ for i in range(4):
 		code_list.append(str(random_num))
 
 verification_code = ''.join(code_list)
-print(verification_code)
+
+if __name__ =='__main__':
+    print(verification_code)
